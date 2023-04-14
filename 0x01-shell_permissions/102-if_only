@@ -1,0 +1,3 @@
+If only
+#!/bin/bash
+chown –from=guillaume betty hello
