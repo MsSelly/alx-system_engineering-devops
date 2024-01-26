@@ -7,6 +7,6 @@
 
 myfiles=$(ls)
 
-for i in $mylist; do
-  echo "$i" | cut -d '-' -f2
+for i in $myfiles; do
+    echo "$i" | cut -d '-' -f2
 done
